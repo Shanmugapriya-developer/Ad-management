@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API = 'http://localhost:5000/api';
+export const API = "https://ad-management-sztd.onrender.com";
 
 const api = axios.create({
   baseURL: API,
